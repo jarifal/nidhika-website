@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+/* Common Shared CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(#a9b1fca2, #e2b2cd71, #f5c8e1a2, #a9b1fca2);
+
+}
+
+
+/* Logo Section CSS */
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-right: 5px;
+}
+
+.logo-name {
+    color: #9069b6;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo-section span {
+    color: #e09696;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* Header Related CSS */
+
+.bodu-container {
+    z-index: 1000;
+}
+
+
+.header {
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 5%;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li a {
+    padding: 5px 20px;
+    color: #3c2525;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar .active {
+    background-color: #46303028;
+}
+
+.navbar li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #9069b6;
+    left: 0;
+    bottom: -4px;
+    transition: .5s ease;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
+#menu-icon {
+    color: #3c2525;
+    ;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+    margin-left: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    background-color: #9069b6;
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: all .4s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateX(-10px);
+}
+
+/* section-related CSS */
+
+.container {
+    margin: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 63px;
+}
+
+.slide .one {
+    background-color: #f5ebcc;
+    padding: 3px 2px;
+    font-size: 18px;
+}
+
+.slide .one1 {
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    gap: 157px;
+    margin-left: 80px;
+}
+
+.text {
+    width: 500px;
+}
+
+.text h1::first-letter {
+    font-size: 60px;
+}
+
+.text h1 {
+    font-size: 40px;
+    color: #3c2525;
+}
+
+.text h2 {
+    font-family: 'Lemon', serif;
+    font-size: 50px;
+    margin-left: 60px;
+    color: #eb8d8d;
+}
+
+.text p {
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nidhika {
+    background-color: #f5ebcc;
+    padding: 3px 3px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.text .button-1 {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.btn3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #9069b6;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.btn3:hover {
+    opacity: 0.9;
+    transform: translateX(10px);
+}
+
+.messenger {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50px;
+    color: #9069b6;
+    transition: all .3s;
+}
+
+.messenger:hover {
+    color: #019bf6;
+}
+
+.circle {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50px;
+    color: #9069b6;
+    transition: all .3s;
+}
+
+.circle:hover {
+    color: red;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #9069b6;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+    transform: translateX(-10px);
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.social ul li a {
+    font-size: 40px;
+}
+
+.facebook {
+    transition: 0.4s ease;
+}
+
+.facebook:hover {
+    color: #0863f7;
+    transform: translateY(-10px);
+}
+
+.instagram {
+    transition: 0.4s ease;
+}
+
+.instagram:hover {
+    color: #e80f06;
+    transform: translateY(-10px);
+}
+
+.profile-img img {
+    width: 400px;
+    height: 620px;
+    border-radius: 200px;
+}
+
+
+
+
+@media (max-width: 1340px) {
+    .container {
+        left: 25px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .container {
+        left: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-img img {
+        width: 350px;
+        height: 550px;
+    }
+
+    .text {
+        width: 450px;
+    }
+
+    .social ul {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .profile-img img {
+        width: 250px;
+        height: 450px;
+    }
+
+    .btn {
+        font-size: 14px;
+        height: 40px;
+        padding: 0 7px;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 35px;
+    }
+
+    .text h2 {
+        font-size: 40px;
+    }
+
+    .text .button-1 {
+        justify-content: space-evenly;
+    }
+
+    .btn3 {
+        font-size: 16px;
+        padding: 3px 3px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #menu-icon {
+        display: initial;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -700px;
+        left: 0;
+        right: 0;
+        background-color: #9069b6;
+        text-align: left;
+        transition: all .4s ease;
+        z-index: 1002;
+    }
+
+    .navbar li a {
+        padding: 16px;
+        display: block;
+        color: #3c2525;
+        border-left: 2px solid #fff;
+        margin: 10px;
+    }
+
+    .navbar li a:hover {
+        background-color: #fff;
+    }
+
+    .navbar li a::after {
+        display: none;
+    }
+
+    .navbar.active {
+        top: 100%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        columns: reverse;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .profile-img img {
+        width: 350px;
+        height: 500px;
+        border-radius: 40px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .text {
+        width: 300px;
+    }
+
+    .text .button-1 {
+        width: 350px;
+        margin-left: -25px;
+    }
+}
+
+
+
+/* pages.html related CSS */
+.pages-content {
+    text-align: center;
+    margin: 100px 225px;
+}
+
+.pages-heading {
+    /* text-align: center; */
+    color: #9069b6;
+    font-size: 50px;
+    font-family: "lemon";
+    margin-bottom: 75px;
+}
+
+.pages-content .hub {
+    color: #e09696;
+    font-size: 50px;
+}
+
+.pages-content h3 {
+    font-size: 24px;
+    color: #3c2525;
+    margin-bottom: 50px;
+}
+
+.pages-content .btn {
+    transition: all 0.4s;
+}
+
+.pages-content .btn a {
+    color: white;
+}
+
+.pages-content .btn:hover {
+    opacity: 0.9;
+    transform: translateY(-10px);
+}
+
+.pages-picture-section {
+    display: flex;
+    align-items: center;
+    margin: 0 63px;
+    gap: 80px;
+    margin-bottom: 100px;
+    
+}
+
+.pages-picture-section img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.pages-side-heading {
+    font-weight: 600;
+    font-size: 40px;
+    color: #3c2525;
+    margin-bottom: 30px;
+}
+.pages-side-content span {
+    color: #FF900E;
+}
+
+.pages-side-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #3c2525;
+    margin-bottom: 20px;
+}
+
+.pages-side-content .btn {
+    background: #FF900E;
+    transition: all 0.4s;
+}
+
+.pages-side-content .btn:hover {
+    opacity: 0.9;
+    transform: translateX(10px);
+}
+
+.reverse-side-content .reverse-btn:hover {
+    opacity: 0.9;
+    transform: translateX(-10px);
+}
+
+.pages-side-content .btn a {
+    color: white;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
