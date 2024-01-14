@@ -489,7 +489,7 @@ body {
     color: #3c2525;
     margin-bottom: 30px;
 }
-.pages-side-content span {
+ span {
     color: #FF900E;
 }
 
@@ -521,4 +521,100 @@ body {
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+
+
+/* about related CSS */
+.about-container {
+	margin: 150px 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.about-content h3 {
+	color: #3c2525;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	background: #8080762e;
+	padding: 5px;
+}
+
+.title-container {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.heading-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3c2525;
+}
+.heading-h6 {
+    font-size: 15px;
+    color: #3c2525;
+    margin-bottom: 5px;
+}
+
+.heading-h5 {
+    font-size: 16px;
+    color: #9069b6;
+    margin-bottom: 15px;
+}
+
+.title-container span {
+    font-weight: bold;
+    color: #8148b9;
+    font-size: 18px;
+}
+.title-container .span-3 {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.title-container .mobile {
+    color: #3c2525;
+    font-weight: bold;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.icon {
+    background: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.title-container .E-mail {
+    color: #3c2525;
+    font-weight: bold;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.title-container .Facebook {
+    color: #3c2525;
+    font-weight: bold;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title-container .Instagram {
+    color: #3c2525;
+    font-weight: bold;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.about-picture-section img {
+    width: 100%;
+    height: 570px;
 }
